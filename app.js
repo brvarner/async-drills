@@ -32,6 +32,21 @@
 //     }, 1000)
 // }
 
+// Walkthrough Method
+
+// const countdown = (num, callback) => {
+//   if (num == 1){
+//     callback()
+//   } else {
+//     console.log(num)
+
+//     setTimeout(() => {
+//       countdown(num - 1, callback)
+//     }, 1000);
+//   }
+
+// }
+
 // // Calling Countdown Function
 // countdown(5, done)
 
